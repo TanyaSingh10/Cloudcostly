@@ -1,0 +1,73 @@
+[27-Dec-2025 17:26:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Users/tanyasingh/cloudcostly/app/wp-includes/class-wpdb.php on line 1994
+[27-Dec-2025 17:26:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Users/tanyasingh/cloudcostly/app/wp-includes/class-wpdb.php on line 1994
+[27-Dec-2025 18:07:10 UTC] PHP Warning:  translations_api(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tanyasingh/cloudcostly/app/wp-includes/functions.php on line 6131
+[27-Dec-2025 18:08:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php:176
+Stack trace:
+#0 /Users/tanyasingh/cloudcostly/app/wp-includes/class-wp-post-type.php(725): add_rewrite_tag('%resource%', '([^/]+)', 'resource=')
+#1 /Users/tanyasingh/cloudcostly/app/wp-includes/post.php(1832): WP_Post_Type->add_rewrite_rules()
+#2 /Users/tanyasingh/cloudcostly/app/wp-content/plugins/cloudcostly-core/cloudcostly-core.php(41): register_post_type('resource', Array)
+#3 /Users/tanyasingh/cloudcostly/app/wp-settings.php(560): include_once('/Users/tanyasin...')
+#4 /Users/tanyasingh/cloudcostly/app/wp-config.php(105): require_once('/Users/tanyasin...')
+#5 /Users/tanyasingh/cloudcostly/app/wp-load.php(50): require_once('/Users/tanyasin...')
+#6 /Users/tanyasingh/cloudcostly/app/wp-admin/admin-ajax.php(22): require_once('/Users/tanyasin...')
+#7 {main}
+  thrown in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php on line 176
+[27-Dec-2025 18:08:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php:176
+Stack trace:
+#0 /Users/tanyasingh/cloudcostly/app/wp-includes/class-wp-post-type.php(725): add_rewrite_tag('%resource%', '([^/]+)', 'resource=')
+#1 /Users/tanyasingh/cloudcostly/app/wp-includes/post.php(1832): WP_Post_Type->add_rewrite_rules()
+#2 /Users/tanyasingh/cloudcostly/app/wp-content/plugins/cloudcostly-core/cloudcostly-core.php(41): register_post_type('resource', Array)
+#3 /Users/tanyasingh/cloudcostly/app/wp-settings.php(560): include_once('/Users/tanyasin...')
+#4 /Users/tanyasingh/cloudcostly/app/wp-config.php(105): require_once('/Users/tanyasin...')
+#5 /Users/tanyasingh/cloudcostly/app/wp-load.php(50): require_once('/Users/tanyasin...')
+#6 /Users/tanyasingh/cloudcostly/app/wp-admin/admin-ajax.php(22): require_once('/Users/tanyasin...')
+#7 {main}
+  thrown in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php on line 176
+[27-Dec-2025 18:08:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php:176
+Stack trace:
+#0 /Users/tanyasingh/cloudcostly/app/wp-includes/class-wp-post-type.php(725): add_rewrite_tag('%resource%', '([^/]+)', 'resource=')
+#1 /Users/tanyasingh/cloudcostly/app/wp-includes/post.php(1832): WP_Post_Type->add_rewrite_rules()
+#2 /Users/tanyasingh/cloudcostly/app/wp-content/plugins/cloudcostly-core/cloudcostly-core.php(41): register_post_type('resource', Array)
+#3 /Users/tanyasingh/cloudcostly/app/wp-settings.php(560): include_once('/Users/tanyasin...')
+#4 /Users/tanyasingh/cloudcostly/app/wp-config.php(105): require_once('/Users/tanyasin...')
+#5 /Users/tanyasingh/cloudcostly/app/wp-load.php(50): require_once('/Users/tanyasin...')
+#6 /Users/tanyasingh/cloudcostly/app/wp-admin/admin.php(35): require_once('/Users/tanyasin...')
+#7 /Users/tanyasingh/cloudcostly/app/wp-admin/plugins.php(10): require_once('/Users/tanyasin...')
+#8 {main}
+  thrown in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php on line 176
+[27-Dec-2025 18:09:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php:176
+Stack trace:
+#0 /Users/tanyasingh/cloudcostly/app/wp-includes/class-wp-post-type.php(725): add_rewrite_tag('%resource%', '([^/]+)', 'resource=')
+#1 /Users/tanyasingh/cloudcostly/app/wp-includes/post.php(1832): WP_Post_Type->add_rewrite_rules()
+#2 /Users/tanyasingh/cloudcostly/app/wp-content/plugins/cloudcostly-core/cloudcostly-core.php(41): register_post_type('resource', Array)
+#3 /Users/tanyasingh/cloudcostly/app/wp-settings.php(560): include_once('/Users/tanyasin...')
+#4 /Users/tanyasingh/cloudcostly/app/wp-config.php(105): require_once('/Users/tanyasin...')
+#5 /Users/tanyasingh/cloudcostly/app/wp-load.php(50): require_once('/Users/tanyasin...')
+#6 /Users/tanyasingh/cloudcostly/app/wp-admin/admin.php(35): require_once('/Users/tanyasin...')
+#7 /Users/tanyasingh/cloudcostly/app/wp-admin/options-reading.php(10): require_once('/Users/tanyasin...')
+#8 {main}
+  thrown in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php on line 176
+[27-Dec-2025 18:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php:176
+Stack trace:
+#0 /Users/tanyasingh/cloudcostly/app/wp-includes/class-wp-post-type.php(725): add_rewrite_tag('%resource%', '([^/]+)', 'resource=')
+#1 /Users/tanyasingh/cloudcostly/app/wp-includes/post.php(1832): WP_Post_Type->add_rewrite_rules()
+#2 /Users/tanyasingh/cloudcostly/app/wp-content/plugins/cloudcostly-core/cloudcostly-core.php(41): register_post_type('resource', Array)
+#3 /Users/tanyasingh/cloudcostly/app/wp-settings.php(560): include_once('/Users/tanyasin...')
+#4 /Users/tanyasingh/cloudcostly/app/wp-config.php(105): require_once('/Users/tanyasin...')
+#5 /Users/tanyasingh/cloudcostly/app/wp-load.php(50): require_once('/Users/tanyasin...')
+#6 /Users/tanyasingh/cloudcostly/app/wp-admin/admin.php(35): require_once('/Users/tanyasin...')
+#7 /Users/tanyasingh/cloudcostly/app/wp-admin/options-reading.php(10): require_once('/Users/tanyasin...')
+#8 {main}
+  thrown in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php on line 176
+[27-Dec-2025 18:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php:176
+Stack trace:
+#0 /Users/tanyasingh/cloudcostly/app/wp-includes/class-wp-post-type.php(725): add_rewrite_tag('%resource%', '([^/]+)', 'resource=')
+#1 /Users/tanyasingh/cloudcostly/app/wp-includes/post.php(1832): WP_Post_Type->add_rewrite_rules()
+#2 /Users/tanyasingh/cloudcostly/app/wp-content/plugins/cloudcostly-core/cloudcostly-core.php(41): register_post_type('resource', Array)
+#3 /Users/tanyasingh/cloudcostly/app/wp-settings.php(560): include_once('/Users/tanyasin...')
+#4 /Users/tanyasingh/cloudcostly/app/wp-config.php(105): require_once('/Users/tanyasin...')
+#5 /Users/tanyasingh/cloudcostly/app/wp-load.php(50): require_once('/Users/tanyasin...')
+#6 /Users/tanyasingh/cloudcostly/app/wp-admin/admin.php(35): require_once('/Users/tanyasin...')
+#7 /Users/tanyasingh/cloudcostly/app/wp-admin/options-general.php(10): require_once('/Users/tanyasin...')
+#8 {main}
+  thrown in /Users/tanyasingh/cloudcostly/app/wp-includes/rewrite.php on line 176

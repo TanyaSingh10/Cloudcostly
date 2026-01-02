@@ -1,0 +1,17 @@
+# WordPress core / archives
+latest.tar.gz
+*.tar.gz
+*.zip
+
+# WordPress sensitive files
+wp-config.php
+.env
+
+# Uploads
+wp-content/uploads/
+
+# OS / editor files
+.DS_Store
+.vscode/
+node_modules/
+

@@ -1,0 +1,26 @@
+/*
+Theme Name: CloudCostly
+Theme URI: http://localhost
+Author: Tanya Singh
+Description: Custom WordPress dashboard theme
+Version: 1.0
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #111827;
+  color: white;
+  padding: 15px;
+}
+
+footer {
+  background: #e5e7eb;
+  padding: 10px;
+  text-align: center;
+}
